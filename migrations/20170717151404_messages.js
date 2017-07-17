@@ -5,9 +5,6 @@ exports.up = function(knex, Promise) {
     table.string('name').notNullable();
     table.string('message').notNullable();
     table.timestamps(true, true);
-    // table.timestamp('created_at').notNullable().defaultTo('now()');
-    // table.timestamp('updated_at').notNullable().defaultTo('now()');
-
   })
 };
 
