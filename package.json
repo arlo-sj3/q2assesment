@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "node server.js",
-    "test": "mocha"
+    "test": "mocha",
+    "knex": "knex"
   },
   "keywords": [],
   "author": "",
@@ -14,12 +15,23 @@
     "body-parser": "^1.15.2",
     "cookie-parser": "^1.4.3",
     "express": "^4.14.0",
-    "knex": "^0.12.6",
-    "pg": "^6.1.0"
+    "knex": "^0.12.9",
+    "pg": "^6.4.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0",
     "supertest": "^2.0.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gSchool/galvanize-message.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gSchool/galvanize-message/issues"
+  },
+  "homepage": "https://github.com/gSchool/galvanize-message#readme"
 }
